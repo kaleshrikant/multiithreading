@@ -1,5 +1,9 @@
+server:
+  tomcat:
+    threads:
+      max: '10'
+  port: '8080'
 spring:
   application:
     name: team-app
-server:
-  port: '8080'
+  ##  server.tomcat.threads.max=10 : HTTP (Tomcat)will only accept 10 -> by default => 200 ##
