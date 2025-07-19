@@ -7,3 +7,7 @@ spring:
   application:
     name: team-app
   ##  server.tomcat.threads.max=10 : HTTP (Tomcat)will only accept 10 -> by default => 200 ##
+  ## Enabling Java21 - Virtual Threads ##
+  threads:
+    virtual:
+      enabled: 'true'
