@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: player-bloc
+server:
+  port: '8081'
