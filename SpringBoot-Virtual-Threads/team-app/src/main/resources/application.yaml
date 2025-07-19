@@ -1,1 +1,5 @@
-spring.application.name=team-app
+spring:
+  application:
+    name: team-app
+server:
+  port: '8080'
